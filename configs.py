@@ -15,23 +15,23 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b> <a href='https://t.me/LazyUrlHunterrBOT'>Lazy Url Hunterr</a> is an open source project.
+    ABOUT_BOT_TEXT = """<b> <a href='https://t.me/MOVIES_VILLA_UPDATE'>GɪᴛHᴜʙ ᴄᴏᴅᴇ</a> is an open source project.
 
     Devs: 
-        <a href='https://t.me/mRiderDM'>❤️ LazyDeveloper ❤️</a>
+        <a href='https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA'>❤️ Oɴᴡᴇʀ ❤️</a>
     
     
-🤖 My Name: <a href='https://t.me/Official_Movies_Group'>Mdisk Search Robot</a>
+🤖 Mʏ Nᴀᴍᴇ: <a href='https://t.me/Official_Movies_Group'>Mdisk Search Robot</a>
 
-📝 Language: <a href='https://www.python.org'>Python V3</a>
+📝 Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org'>Python V3</a>
 
-📚 Library: <a href='https://docs.pyrogram.org'>Pyrogram</a>
+📚 Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org'>Pyrogram</a>
 
-📡 Server: <a href='https://heroku.com'>Heroku</a>
+📡 Sᴇʀᴠᴇʀ: <a href='https://heroku.com'>Heroku</a>
 
-📡 Server 2: <a href='https://heroku.com'>koyeb</a> <i>comming soon</i>
+📡 Sᴇʀᴠᴇʀ 2: <a href='https://heroku.com'>koyeb</a> <i>comming soon</i>
 
-👨‍💻 Developer Channel: <a href='https://t.me/LazyDeveloper'>LazyDeveloper</a></b>
+👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ Cʜᴀɴɴᴇʟ: <a href='https://t.me/LazyDeveloper'>LazyDeveloper</a></b>
 """
 
     ABOUT_HELP_TEXT = """<b>💋 Developer : <a href='https://t.me/LazyDeveloper'>LazyDeveloper</a>
