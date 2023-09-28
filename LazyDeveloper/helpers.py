@@ -1,6 +1,3 @@
-# in & as LazyDeveloper
-# Please Don't Remove Credit
-
 from base64 import standard_b64encode, standard_b64decode
 
 
@@ -9,6 +6,7 @@ def str_to_b64(__str: str) -> str:
     bytes_b64 = standard_b64encode(str_bytes)
     b64 = bytes_b64.decode('ascii')
     return b64
+
 
 def b64_to_str(b64: str) -> str:
     bytes_b64 = b64.encode('ascii')
