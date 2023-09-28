@@ -26,9 +26,9 @@ async def broadcast_handler(c:Client, m:Message):
         try:
             await main_broadcast_handler(m)
         except Exception as e:
-            logging.error("Looks something went wrong. I am unable to broadcast", exc_info=True)
+            logging.error("Lᴏᴏᴋs sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. I ᴀᴍ ᴜɴᴀʙʟᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ", exc_info=True)
     else:
-        await m.reply_text("Ok ! Please Reply to the message you want to broadcast")
+        await m.reply_text("Oᴋ ! Pʟᴇᴀsᴇ Rᴇᴘʟʏ ᴛᴏ ᴛʜᴇ ᴍᴇssᴀɢᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ")
 
 async def send_msg(user_id, message):
     try:
@@ -57,7 +57,7 @@ async def main_broadcast_handler(m: Message):
         broadcast_id = ''.join([random.choice(string.ascii_letters) for _ in range(3)])
         if not broadcast_ids.get(broadcast_id):
             break
-    out = await m.reply_text(text="Have a coffee... Hunting Started! You will be notified with log file when my Hunting or Broadcast will over.")
+    out = await m.reply_text(text="Hᴀᴠᴇ ᴀ ʙʀᴏᴀᴅᴄᴀsᴛ.... Sᴛᴀʀᴛᴇᴅ! Yᴏᴜ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ ᴡɪᴛʜ ʟᴏɢ ғɪʟᴇ ᴡʜᴇɴ ᴍʏ Hᴜɴᴛɪɴɢ ᴏʀ Bʀᴏᴀᴅᴄᴀsᴛ ᴡɪʟʟ ᴏᴠᴇʀ.")
 
     start_time = time.time()
     total_users = await total_users_count()
@@ -89,9 +89,9 @@ async def main_broadcast_handler(m: Message):
     await asyncio.sleep(3)
     await out.delete()
     if failed == 0:
-        await m.reply_text(text=f"Hunting completed in `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.", quote=True)
+        await m.reply_text(text=f"Bʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.", quote=True)
 
     else:
-        await m.reply_document(document='broadcast.txt', caption=f"Hunting completed in `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.", quote=True)
+        await m.reply_document(document='broadcast.txt', caption=f"Bʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.", quote=True)
 
     await aiofiles.os.remove('broadcast.txt')
