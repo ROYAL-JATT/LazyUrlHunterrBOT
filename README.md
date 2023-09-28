@@ -30,7 +30,7 @@
 * `DATABASE_URL` : MongoDB Database URI for Saving UserID for hunting or Broadcasting..
 * `UPDATES_CHANNEL`: ID of a Channel which you want to do Force Sub to use the bot.
 * `USER_SESSION_STRING`: Get this from @SessionStringGeneratorZBot
-* Check [app.json](https://github.com/LazyDeveloperr/LazyUrlHunterrBOT/blob/main/app.json) for more
+* Check [app.json](https://github.com/ROYAL-JATT/LazyUrlHunterrBOT/blob/main/app.json) for more
 
 
 ## Deploy
@@ -76,13 +76,12 @@ python3 main.py
  - ❤️ Thank You [LazyDeveloper](https://telegram.me/LazyDeveloper) For helping me in my Journey..❤️
  - ⚡️[Why don't you buy a cup of coffee for LazyDeveloper](https://telegram.me/LazyDeveloper)⚡️
 
-### Note
-
+### No
 [Join Developer Channel](https://telegram.dog/LazyDeveloper): LazyDeveloper
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyUrlHunterrBOT/blob/main/LICENSE)
+Licensed under [GNU AGPL 2.0.](https://github.com/ROYAL-JATT/LazyUrlHunterrBOT/blob/main/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 🔺 [Contact Us](https://telegram.me/mRiderDM) if you find someone selling this source code 🔺
 
